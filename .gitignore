@@ -1,0 +1,26 @@
+cat > .gitignore << EOL
+# First ignore everything
+*
+*/
+
+# Track all potential project files
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.py
+!*.sh
+!*.md
+!*.txt
+!*.yml
+!*.yaml
+!*.json
+!*.html
+!*.css
+!*.js
+!Makefile
+!CMakeLists.txt
+!.gitignore
+
+# Track important directories
+!*/
